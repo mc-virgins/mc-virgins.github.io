@@ -1,0 +1,81 @@
+<!--
+    Init 11/06/2020
+    Latest 12/06/2020
+
+    Placeholder page whilst website under construction.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MC Virgins</title>
+        <link rel="icon" type="image/png" href="https://images.emojiterra.com/google/android-10/512px/1f6a7.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            table.main {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
+            table.main img.logo {
+                width: 300px;
+                border-radius: 20px 0px;
+                animation: imglogo1 1s, imglogo2 4s infinite;
+                animation-delay: 0s, 1s;
+            }
+
+            @keyframes imglogo1 {
+                from {
+                    border-radius: 100% 0px;
+                }
+                to {
+                    border-radius: 20px 0px 20px 20px;
+                }
+            }
+
+            @keyframes imglogo2 {
+                0% {border-radius: 20px 0px 20px 20px;}
+				25% {border-radius: 20px 20px 0px 20px;}
+                50% {border-radius: 20px 20px 20px 0px;}
+                75% {border-radius: 0px 20px 20px 20px;}
+                100% {border-radius: 20px 0px 20px 20px;}
+            }
+
+            td.info h1 {
+                transform: skew(-10deg) rotate(-2deg);
+                grid-area: text;
+                font-family: 'Sarpanch', sans-serif;
+                font-size: 50px;
+                margin: 10px;
+                padding: 10px;  
+                color: #1d9099;
+                text-shadow: 2px 2px 0 #E79C10, -2px -2px 0 #D53A33;
+            }
+
+            td.info p {
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+                margin: 0px;
+                font-size: 25px;
+                margin: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="main">
+            <tr>
+                <td>
+                    <img class="logo" src="https://avatars1.githubusercontent.com/u/66795344">
+                </td>
+                <td class="info">
+                    <h1>Under Construction 🚧</h1>
+                    <p>Hey you! This page is still being worked on.<br>
+                    But while you're waiting go check out <b><a href="https://linktr.ee/mc.virgins" style="color:black">linktr.ee/mc.virgins</a></b></p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
